@@ -1,167 +1,185 @@
-/* HTML TAGS */
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Kumbh Sans', sans-serif;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-}
-
-p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
-summary {
-    list-style-type: none;
-    position: relative;
-    font-size: 12px;
-}
-
-summary:hover {
-    cursor: pointer;
-    color: hsl(14, 88%, 65%);
-}
-
-summary:focus img {
-    transform: rotate(180deg);
-}
-
-summary:focus {
-    font-weight: bold;
-    color: hsl(238, 29%, 16%)
-}
-
-summary img {
-    position: absolute;
-    right: .5rem;
-}
-
-hr {
-    border-color: hsl(240, 5%, 91%);
-    margin: .8rem 0;
-    border: none;
-    border-bottom: 2px solid hsl(240, 5%, 91%);
-}
-
-
-/* CLASS SELECTORS */
-
-.container {
-    display: grid;
-    position: relative;
-    grid-template-columns: 48% 52%;
-    width: 60vw;
-    height: 60vh;
-    border-radius: 2rem;
-    column-gap: 0px;
-    overflow: hidden;
-    background-color: white;
-    padding: 20px 0;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px, 8px, 16px, -8px;
-}
-
-.main-container {
-    z-index: 3;
-    position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px, 8px, 16px, -8px;
-}
-
-.images-sec {
-    position: relative;
-    padding-right: 2rem;
-}
-
-.images-sec img {
-    width: 380px;
-    height: auto;
-    position: absolute;
-}
-
-.box-img {
-    position: absolute;
-    width: 130px;
-    height: auto;
-    left: -4rem;
-    top: 11.5rem;
-    z-index: 2;
-}
-
-.main-img {
-    bottom: 3.5rem;
-    left: -4.5rem;
-}
-
-.bg-mobile,
-.main-mobile {
-    display: none;
-}
-
-.bg-img {
-    bottom: -2rem;
-    left: -12rem;
-    width: 500px !important;
-}
-
-.text-sec {
-    padding: 1rem 5rem 2rem 0rem;
-    color: hsl(237, 12%, 33%)
-}
-
-.text-sec h1 {
-    margin-bottom: 2rem;
-    color: hsl(238, 29%, 16%)
-}
-
-@media screen and (min-width: 250px) and (max-width: 600px) {
-    body,
-    .container {
-        display: block;
-    }
-    .images-sec,
-    .main-img,
-    .bg-img,
-    .box-img {
-        display: none;
-    }
-    .main-container {
-        padding: 8rem 1rem 1rem;
-    }
-    .container {
-        width: 100%;
-        padding-top: 5rem;
-        overflow: visible;
-        height: auto;
-    }
-    .text-sec {
-        padding: 1rem 1.5rem 2rem 1.5rem;
-        color: hsl(237, 12%, 33%);
-    }
-    .text-sec h1 {
-        text-align: center;
-    }
-    hr {
-        margin: 1.1rem 0;
-    }
-    .bg-mobile,
-    .main-mobile {
-        display: block;
-        position: absolute;
-    }
-    .bg-mobile {
-        top: 0rem;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-    .main-mobile {
-        top: -6.8rem;
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: 240px;
-        height: auto;
-    }
-}
+            /* HTML TAGS */
+            
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Kumbh Sans', sans-serif;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+            }
+            
+            p {
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+            
+            summary {
+                list-style-type: none;
+                position: relative;
+                font-size: 12px;
+            }
+            
+            summary:hover {
+                cursor: pointer;
+                color: hsl(14, 88%, 65%);
+            }
+            
+            summary:focus img {
+                transform: rotate(180deg);
+            }
+            
+            summary:focus {
+                font-weight: bold;
+                color: hsl(238, 29%, 16%)
+            }
+            
+            summary img {
+                position: absolute;
+                right: .5rem;
+            }
+            
+            hr {
+                border-color: hsl(240, 5%, 91%);
+                margin: .8rem 0;
+                border: none;
+                border-bottom: 2px solid hsl(240, 5%, 91%);
+            }
+            /* CLASS SELECTORS */
+            
+            .container {
+                display: grid;
+                position: relative;
+                grid-template-columns: 48% 52%;
+                width: 60vw;
+                height: 60vh;
+                border-radius: 2rem;
+                column-gap: 0px;
+                overflow: hidden;
+                background-color: white;
+                padding: 20px 0;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px, 8px, 16px, -8px;
+            }
+            
+            .main-container {
+                z-index: 3;
+                position: relative;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px, 8px, 16px, -8px;
+            }
+            
+            .images-sec {
+                position: relative;
+                padding-right: 2rem;
+            }
+            
+            .images-sec img {
+                width: 23rem;
+                height: auto;
+                position: absolute;
+            }
+            
+            .box-img {
+                position: absolute;
+                width: 130px;
+                height: auto;
+                left: -4rem;
+                top: 11.5rem;
+                z-index: 2;
+            }
+            
+            .main-img {
+                top: 3.5rem;
+                left: -4.5rem;
+            }
+            
+            .bg-mobile,
+            .main-mobile {
+                display: none;
+            }
+            
+            .bg-img {
+                top: -4rem;
+                left: -12rem;
+                width: 500px !important;
+            }
+            
+            .text-sec {
+                padding: 1rem 5rem 2rem 0rem;
+                color: hsl(237, 12%, 33%)
+            }
+            
+            .text-sec h1 {
+                margin-bottom: 2rem;
+                color: hsl(238, 29%, 16%)
+            }
+            
+            @media screen and (min-width: 250px) and (max-width: 600px) {
+                body,
+                .container {
+                    display: block;
+                }
+                .images-sec,
+                .main-img,
+                .bg-img,
+                .box-img {
+                    display: none;
+                }
+                .main-container {
+                    padding: 8rem 1rem 1rem;
+                }
+                .container {
+                    width: 100%;
+                    padding-top: 5rem;
+                    overflow: visible;
+                    height: auto;
+                }
+                .text-sec {
+                    padding: 1rem 1.5rem 2rem 1.5rem;
+                    color: hsl(237, 12%, 33%);
+                }
+                .text-sec h1 {
+                    text-align: center;
+                }
+                hr {
+                    margin: 1.1rem 0;
+                }
+                .bg-mobile,
+                .main-mobile {
+                    display: block;
+                    position: absolute;
+                }
+                .bg-mobile {
+                    top: 0rem;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+                .main-mobile {
+                    top: -6.8rem;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    width: 240px;
+                    height: auto;
+                }
+            }
+            
+            @media screen and (min-width: 601px) and (max-width: 1080px) {
+                .images-sec img {
+                    width: 20rem;
+                }
+                .bg-img {
+                    width: 28rem !important;
+                }
+                .box-img {
+                    width: 7rem;
+                }
+            }
+            
+            @media screen and (min-width: 601px) and (max-width: 1440px) {
+                .container {
+                    height: auto;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                }
+            }
