@@ -20,8 +20,8 @@ This project was taken as an assignment issued by Web3bridge.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nonnyjoe/3-collumn-review-card)
-- Live Site URL: [Add live site URL here](https://nonnyjoe.github.io/3-collumn-review-card/)
+- Solution URL: [Click here](https://github.com/Nonnyjoe/faq-accordion-card-main)
+- Live Site URL: [Click here](https://nonnyjoe.github.io/faq-accordion-card-main/)
 
 ### Built with
 
