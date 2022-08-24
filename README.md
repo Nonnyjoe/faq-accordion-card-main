@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - FAQ accordion card solution
 # Assignment by Web3bridge 
 
 ## Table of contents
